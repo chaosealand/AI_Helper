@@ -9,6 +9,7 @@
 - `requirements.txt`：相依套件
 - `example_data/`：範例上傳檔案
 - `README.md`：使用說明
+- `TOKEN.py` : 存放 API 
 
 ## 使用方法
 1. 依照 `main.py` 裡的說明，安裝好套件後，執行 `main.py`。
@@ -17,6 +18,7 @@
 4. 點擊執行，等待結果顯示。
 
 ## 注意事項
+- `TOKEN.py`內的API TOKEN已被移除，需要重新填入Grok和HuggingFace TOKEN才可以運行
 - 優先依照 `main.py` 裡的說明安裝相依套件，若有問題可參考 `requirements.txt`。
 - 模型需要比較多時間跑，錄影時會跳過等待時間
 ## 介紹Youtube連結
